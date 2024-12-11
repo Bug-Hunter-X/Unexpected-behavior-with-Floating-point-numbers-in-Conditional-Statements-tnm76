@@ -1,0 +1,3 @@
+This repository contains a MATLAB script demonstrating an uncommon error related to floating-point number comparisons in conditional statements.  The script, 'bug.m', showcases a function where the conditional statement behaves unexpectedly due to floating-point precision limitations. The solution, 'bugSolution.m', provides an improved approach to handle such situations.  The README details the issue and resolution methods.
+
+The primary issue arises from MATLAB's handling of floating-point numbers, which can lead to slight discrepancies in comparisons, triggering unexpected branches in conditional statements.  The solution demonstrates the use of tolerance to account for these tiny discrepancies in comparisons, improving the robustness of the code.
